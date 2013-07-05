@@ -120,8 +120,9 @@ body {
 * 3.2. Zone content
 **********************************************/
 .zone-content-wrapper .zone-content {
-  /*background-color: #FFFFFF*/background-color: lightgrey; }
-
+background-color: #fff;
+border-radius: 5px 5px 0 0;
+}
 .front .zone-content-wrapper .zone-content {
   padding-top: 0; }
 

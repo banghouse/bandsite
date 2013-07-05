@@ -369,12 +369,15 @@ select {
 * 2.2. Zone branding
 **********************************************/
 .zone-branding .region-branding {
-  margin: 50px 0 0px 0; }
+  margin-top: 50px; }
   .zone-branding .region-branding .logo-img {
     float: none;
     margin: 10px 0;
     text-align: center; }
-
+.region-branding .block-1 {
+  width: 60%;
+float: left;
+}
 /**
 * Search block
 */

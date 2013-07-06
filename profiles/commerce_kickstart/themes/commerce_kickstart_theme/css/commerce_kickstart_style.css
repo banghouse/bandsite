@@ -1,3 +1,4 @@
+
 @import url(//fonts.googleapis.com/css?family=Open+Sans:400,700,300,600,800);
 @import url(//fonts.googleapis.com/css?family=Gentium+Basic:400,700);
 /* This file will hold styles for the mobile version of your website (mobile first). */
@@ -416,4 +417,19 @@ border-radius: 10px 10px 0 0;
 /*border: 1px solid #fff;*/
 padding: 10px 30px 10px 20px;
 margin: 0 0px 0 -10px;
+}
+
+.zone-branding {
+  background: #000;
+}
+.block-tb-megamenu-main-menu {
+  width: 70%;
+  float: left;
+}  
+.block-tb-megamenu-secondary-navigation {
+  width: 30%;
+  float: left;
+}
+.zone-content-wrapper .zone-content {
+border-radius: 0 0 0 0;
 }

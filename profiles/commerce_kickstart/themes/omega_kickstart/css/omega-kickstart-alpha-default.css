@@ -21,7 +21,7 @@
   background-color: transparent; }
 
 .block-views-shopping-cart-block {
-  margin: 0; }
+  margin: 0 20px 0 0; }
 
 /**********************************************
 * 2.2. Zone branding
@@ -40,7 +40,7 @@
 #block-views-exp-display-products-page {
   float: right;
   /* LTR */
-  padding-top: 17px;
+  padding-top: 19px;
   margin-bottom: 10px; }
 
 #block-views-exp-display-products-page .views-exposed-widgets {

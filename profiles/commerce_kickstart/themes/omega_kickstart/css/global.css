@@ -369,12 +369,15 @@ select {
 * 2.2. Zone branding
 **********************************************/
 .zone-branding .region-branding {
-  margin: 50px 0 0px 0; }
+  margin-top: 30px; }
   .zone-branding .region-branding .logo-img {
     float: none;
     margin: 10px 0;
     text-align: center; }
-
+.region-branding .block-1 {
+  width: 66%;
+float: left;
+}
 /**
 * Search block
 */
@@ -2886,3 +2889,29 @@ html.js #commerce-backoffice-message-form fieldset .fieldset-legend {
   .in-maintenance #page .page-wrapper {
     background: #fff;
     padding: 10px 10px 20px 10px; }
+
+
+/* TB MEGA MENUS */
+
+.tb-megamenu .nav > .active > a, .tb-megamenu .nav > .active > a:hover, .tb-megamenu .nav > .active > a:focus {
+background-color: #fff;
+color: #000;
+}
+
+.tb-megamenu .nav > li > a:hover {
+  color: #000;
+}
+
+/* TAGS IN VIEW HEADERS*/
+
+.not-front .view-display-id-block_1 .item-list,
+.not-front .view-display-id-block_1 a:hover {
+background-color: #cecece;
+border: 1px solid #000;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+padding: 5px 5px;
+min-width: 50px;
+text-align: center;
+border-radius: 5px;
+}

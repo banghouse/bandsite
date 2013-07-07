@@ -1,3 +1,4 @@
+
 @import url(//fonts.googleapis.com/css?family=Open+Sans:400,700,300,600,800);
 @import url(//fonts.googleapis.com/css?family=Gentium+Basic:400,700);
 /* This file will hold styles for the mobile version of your website (mobile first). */
@@ -120,8 +121,9 @@ body {
 * 3.2. Zone content
 **********************************************/
 .zone-content-wrapper .zone-content {
-  /*background-color: #FFFFFF*/background-color: lightgrey; }
-
+background-color: #fff;
+border-radius: 5px 5px 0 0;
+}
 .front .zone-content-wrapper .zone-content {
   padding-top: 0; }
 
@@ -250,7 +252,8 @@ body {
 /**
 * Connect with us
 */
-#block-menu-menu-social-connection h2 {
+#block-menu-menu-social-connection h2,
+#block-block-2 h2 {
   background-color: #262626;
   color: #eeeeee; }
 #block-menu-menu-social-connection .content ul.menu li {
@@ -276,6 +279,35 @@ body {
   #block-menu-menu-social-connection .content ul.menu li a.pinterest {
     background: url("../images/icon_pinterest.png") 2% 50% no-repeat;
     /* LTR */ }
+
+
+#block-block-2 .content ul.menu li a.facebook,
+#block-block-2 .content ul.menu li a.twitter,
+#block-block-2 .content ul.menu li a.pinterest {
+background: url("../images/icon_facebook.png") 2% 0% no-repeat;
+width: 40px;
+height: 40px;
+padding: 0;
+margin-right: 20px;
+float: left;
+}
+#block-block-2 .content ul.menu li a.twitter,
+#block-block-2 .content ul.menu li a.pinterest {
+background: url("../images/icon_twitter.png") 2% 0% no-repeat;
+width: 40px;
+height: 40px;
+padding: 0;
+margin-right: 20px;
+float: left;
+}
+#block-block-2 .content ul.menu li a.pinterest {
+background: url("../images/icon_pinterest.png") 2% 0% no-repeat;
+width: 40px;
+height: 40px;
+padding: 0;
+margin-right: 20px;
+float: left;
+}
 
 /**********************************************
 * 4.2. Zone footer2
@@ -402,4 +434,32 @@ color: #000;
 .navigation .primary-menu ul li a:hover {
 background-color: black;
 color: #fff;
+}
+
+
+/*CUSTOM LOGO*/
+.logo a {
+font-size: 46px;
+color: #fff;
+text-align: center;
+background: #000;
+border-radius: 10px 10px 0 0;
+/*border: 1px solid #fff;*/
+padding: 10px 30px 10px 20px;
+margin: 0 0px 0 -10px;
+}
+
+.zone-branding {
+  background: #000;
+}
+.block-tb-megamenu-main-menu {
+  width: 70%;
+  float: left;
+}  
+.block-tb-megamenu-secondary-navigation {
+  width: 30%;
+  float: left;
+}
+.zone-content-wrapper .zone-content {
+border-radius: 0 0 0 0;
 }

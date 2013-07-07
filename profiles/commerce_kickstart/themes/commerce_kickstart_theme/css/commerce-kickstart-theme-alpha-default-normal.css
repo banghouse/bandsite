@@ -44,7 +44,8 @@
 /**
 * Connect with us
 */
-#block-menu-menu-social-connection h2 {
+#block-menu-menu-social-connection h2,
+#block-block-2 h2 {
   background: url("../images/bg_block_footer_title.png") left top no-repeat;
   /* LTR */
   color: #eeeeee; }

@@ -14,7 +14,7 @@
 * 2.1.1. Region user first
 *******************************************/
 .block-menu-user-menu .block-inner {
-  float: right;
+  float: left;
   margin-right: 10px; }
 
 /**********************************************
@@ -186,7 +186,8 @@
 /**
 * Connect with us
 */
-#block-menu-menu-social-connection h2 {
+#block-menu-menu-social-connection h2,
+#block-block-2 h2 {
   line-height: inherit;
   padding: 0 0 22px 25px; }
 

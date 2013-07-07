@@ -220,7 +220,7 @@
     display: block; }
   #zone-postscript .view-ad-push .views-row .views-field-field-tagline .field-content a,
   #zone-postscript .block-blog-block .views-field-title .field-content a {
-    min-height: 60px;
+    min-height: 30px;
     padding: 15px 10px; }
 
 /**************************************************
